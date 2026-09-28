@@ -1,0 +1,39 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# AI model weights
+*.pt
+*.onnx
+*.engine
+
+# Runtime data
+data/
+snapshots/
+*.db
+*.log
+*.xlsx
+*.csv
+
+# Media
+video/
+*.mp4
+*.avi
+*.mkv
+
+# Local config/state
+cameras.json
+cameras_backup.json
+fuck.json
+groups.json
+settings.json
+config.json
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
